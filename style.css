@@ -1,0 +1,61 @@
+*, *::before, *::after {
+    box-sizing: border-box; }
+
+h1 {
+    font-size: 32px;
+    border: 3px solid black;
+    line-height: 1;
+    margin-right: 1350px;
+}
+
+.text_1 {
+    border: 3px solid black;
+    line-height: 1;
+    margin-right: 375px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    flex: 0 0 33.333%;
+    display: inline-block;
+    font-size: 24px;
+    padding: 5px;
+}
+
+.splash {
+    font-size: 32px;
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.btn_one {
+    color: #40E0D0;
+    border-color: #40E0D0;
+}
+
+.btn_two {
+    color: red;
+    border-color: red;
+}
+
+.btn_three {
+    color: blue;
+    border-color: blue;
+}
+
+.number {
+    position: absolute;
+    font-size: 116px;
+    opacity: 35%;
+    color: #40E0D0;
+    font-weight: bold;
+}
+
+h2, h3 {
+    position: relative;
+}
